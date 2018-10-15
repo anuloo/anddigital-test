@@ -1,0 +1,27 @@
+{
+  "name": "and-digital-test",
+  "version": "0.0.1",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/server/bin/server",
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuloo/anddigital-test.git"
+  },
+  "author": "zol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuloo/anddigital-test/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "request": "^2.88.0"
+  }
+}
