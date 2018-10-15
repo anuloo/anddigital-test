@@ -12,3 +12,21 @@ retrieve a list of customers
 --
 API endpoint:
 GET localhost:4000/telecom/get
+
+API description:
+retrieve a customer phone number
+--
+API endpoint:
+GET localhost:4000/telecom/get/Andy Halwin
+
+API description:
+activate a customer phone number
+--
+API endpoint:
+GET localhost:4000/telecom/Andy Halwin/update
+
+API description:
+retrieve a list of customers with and active phone number
+--
+API endpoint:
+GET localhost:4000/telecom/active

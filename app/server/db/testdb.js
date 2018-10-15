@@ -17,5 +17,17 @@ var users = [
 module.exports = {
   getAll: function() {
     return users;
+  },
+  getById: function (id) {
+        return this.getAll().find(item=>item.name==id);
+  },
+  getActive: function () {
+        return this.getAll().filter(item=>item.active==true);
+  },
+  activatePhoneNumber: function (id) {
+        var res = null;
+        res = this.getAll().find(item=>item.name==id);
+        console.log("id: "+id);
+        res.active = true;
   }
 };
